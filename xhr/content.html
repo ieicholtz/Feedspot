@@ -1,0 +1,177 @@
+<div>
+	<div id="landing-html">
+		<img src="img/FS_logo.png" alt="logo" id="land_logo"/>
+		
+		<form id="login" method="get">
+		<input type="text" name="username" id="username"/>
+		<input type="text" name="password" id="password"/>
+		<button type="submit" id="submit">Login</button>
+		</form>
+		
+	<!--	<div id="lErrorMessage" title="Invalid Login">
+			<p><span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>
+				The Username or Password you have entered are invalid.
+			</p>
+		</div> -->
+		
+	
+		<div id="main">
+		<h1>What is FeedSpot?</h1>
+		<h2>FeedSpot is a RSS feed management source. Allows users to view and 
+			manage all their feeds from one location, with instant updates live form
+			the source.</h2>		
+	
+		<div id="features">		
+		<h3>Features</h3>			
+		<ul>
+		<li>Multiple RSS feeds in one location</li>
+		<li>Fully customizable content display</li>
+		<li>Instantly updates all feeds</li>
+		<li>No need to view multiple sites</li>
+		</ul>	
+		</div><!--features-->
+			
+		<div id="supported">
+		<h3>Supported Feeds</h3>
+		<ul id="s_left">
+		<li>Digg</li>
+		<li>CNN</li>					
+		<li>Engadget</li>
+		<li>SlashDot</li>
+		</ul>
+		<ul id="s_right">
+		<li>Nettuts</li>
+		<li>Neatorama</li>					
+		<li>BoingBoing</li>
+		<li>Onion</li>
+		</ul>		
+		</div><!--supported-->
+				
+		</div><!--main-->		
+		<div id="register">
+		<h3>Sign Up</h3>
+		<form id="signup" method="get">
+		<input type="text" name="s_email" id="s_email"/>
+		<input type="text" name="s_user" id="s_user"/>
+		<input type="text" name="s_pass" id="s_pass"/>
+		<input type="text" name="s_repass" id="s_repass"/>
+		<button type="submit" id="s_submit">Sign Up</button>
+		</form>
+		</div><!--register-->
+			
+		<div id="footer">
+		<p id="copyright">Copyright &copy; 2011 FeedSpot.com</p>
+		<ul id="social">
+		<li><a href="http://www.facebook.com"><img src="img/fb.png" alt="facebook"/></a></li>
+		<li><a href="http://www.twitter.com"><img src="img/twitter.png" alt="twitter"/></a></li>
+		<li><a href="http://www.myspace.com"><img src="img/myspace.png" alt="myspace"/></a></li>
+		<li><a href="#"><img src="img/rss.png" alt="rss"/></a></li>
+		</ul>
+		<ul id="links">
+		<li><a href="#">About Us</a></li>
+		<li>|</li>
+		<li><a href="#">Contact</a></li>
+		</ul>
+		</div><!--footer-->
+			
+		<div id="clear"></div>
+	</div><!--landing-html-->
+
+	
+	<div id="app-html">
+			<img src="img/logo.png" alt="logo" id="logo"/>
+
+			<div id="top">
+				<h2>Top Feeds</h2>
+					
+				<div id="topNav">
+						
+				<a href="#" id="topBtn"><img src="img/settings.png" alt="settings"/></a>
+				<a href="#" id="logout">Logout</a>
+				</div><!--topNav-->
+					
+				<div id="topContent">
+				<a href="#" id="prev"><img src="img/arrow.png" alt="prev"/></a>
+					
+				<div id="topArticle">
+				<ul>		
+				</ul>
+				</div><!--topArticle-->
+				
+				<div class ='clear'></div>
+						
+				<a href="#" id="next"><img src="img/arrow.png" alt="next"/></a>
+				</div><!--topContent-->
+
+			</div><!--top-->
+			
+			<div id="settings" class="notActive">
+			<h2>Settings</h2>
+
+			<div id="settingsNav">	
+			<a href="#" id="settingsBtn"><img src="img/close.png" alt="close"/></a>
+			<a href="#" id="logout">Logout</a>
+			</div><!--settingsNav-->
+
+			<div id="settingsContent">
+
+			<div id="settingsActive">
+			<h2 class="settingsTitle">Active</h2>
+			<ul id="active" class="sortable">
+
+			</ul>		
+			</div><!--settingsActive-->
+			<img id="dd" src="img/drag_drop.png" alt="drag and drop"/>
+
+			<div id="settingsInactive">
+			<h2 class="settingsTitle">Inactive</h2>	
+			<ul id="inactive" class="sortable">
+
+			</ul>
+			</div><!--settingsInactive-->
+			</div><!--settingsContent-->
+			</div><!--settings-->
+		
+		<div id="content">
+		<ul id="contentNav">
+		</ul>
+		<select id="artNum">
+		<option>5</option>
+		<option>10</option>
+		<option>15</option>
+		<option>20</option>
+		<option>25</option>
+		<option>30</option>
+		<option>35</option>
+		<option>40</option>
+		<option>45</option>
+		<option>50</option>
+		</select>
+			
+		<div id="contentBody">
+	
+		</div><!--contentBody-->
+			
+			
+		</div><!--content-->
+			
+		<div id="footerMain">
+		<p id="copyright">Copyright &copy; 2011 FeedSpot.com</p>
+		<ul id="social">
+		<li><a href="#"><img src="img/fb.png" alt="facebook"/></a></li>
+		<li><a href="#"><img src="img/twitter.png" alt="twitter"/></a></li>
+		<li><a href="#"><img src="img/myspace.png" alt="myspace"/></a></li>
+		<li><a href="#"><img src="img/rss.png" alt="rss"/></a></li>
+		</ul>
+		<ul id="links">
+		<li><a href="#">About Us</a></li>
+		<li>|</li>
+		<li><a href="#">Contact</a></li>
+		</ul>
+		</div><!--footer-->
+		
+		<div id="clear"></div><!--clear-->
+		
+	</div><!--app-html-->
+
+</div>
